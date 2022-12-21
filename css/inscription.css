@@ -1,0 +1,179 @@
+
+/* nav bar strat */
+.main
+{
+    margin-top: 20px;
+    background-color:#5684F3;
+    border-radius: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    opacity: 1;
+}
+
+.artiste
+{
+  margin-top: 0px !important;
+}
+
+.nav
+{
+    font-family: Arial;
+    font-weight: bold;
+   
+   
+}
+
+
+.list
+{
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    font-family: 'Klee One', cursive;
+   
+   
+}
+/* section header */
+section {
+    overflow: hidden;
+    padding: 80px 0;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-top: 40px !important;
+  }
+  
+  .section-header h2 {
+    font-size: 32px;
+    font-weight: 600;
+    position: relative;
+  }
+  
+  .section-header h2:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: var(--color-primary);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  
+  .section-header p
+   {
+    margin-bottom: 0;
+  }
+ul li
+{
+   margin-right: 20px; 
+   
+}
+ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+a:hover
+{
+    color: green !important;
+}
+ /* general start */
+ 
+.general
+ {
+
+     width: 700px !important;
+     height: 500px !important;
+     margin: 50px auto !important;
+     
+ }
+ @media (max-width : 770px)
+ {
+    .general
+ {
+
+     width: 500px !important;
+     height: 400px !important;
+     margin: 50px auto !important;
+     
+ }
+}
+@media (max-width : 430px ){
+    .general
+    {
+        width: 300px !important;
+        height: 200px !important;
+        margin: 50px auto !important;
+
+    }
+}
+@media (max-width:350px)
+{
+    .general
+    {
+        width: 200px !important;
+        height: 150px !important;
+        margin: 50px auto !important;
+
+    }
+}
+
+/* general end */
+    
+@media  (max-width: 430px){
+
+    .main
+    {
+        margin-top: 20px;
+        background-color: #5684F3;
+        border-radius: 1px solid black;
+        display: flex;
+        justify-content: space-around;
+        opacity: 1;
+    }
+    .artiste
+    {
+      margin-top: 0px !important;
+      font-size: 10px !important;
+    }
+    
+    .nav
+    {
+        font-family: Arial;
+        font-weight: bold;
+       
+       
+    }
+    
+    .list
+    {
+        display: flex;
+        list-style: none;
+        margin-top: 40px;
+       
+    }
+    ul li
+    
+    {
+       margin-right: 20px; 
+       /* text-shadow: green;
+       */
+    }
+    ul li a
+    {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+    a:hover
+    {
+        color: green !important;
+    }}
+    /* nav bar end */
+
+   
